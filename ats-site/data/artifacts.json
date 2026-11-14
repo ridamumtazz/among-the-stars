@@ -1,0 +1,1795 @@
+{
+  "meta": {
+    "longitude_convention": "east-positive, -180 to 180"
+  },
+  "artifacts": [
+    {
+      "id": "apollo11_descent",
+      "name": "Apollo 11 lunar module descent stage",
+      "destination": "Moon",
+      "mission": "Apollo 11",
+      "also_includes": "TODO",
+      "type": "descent stage",
+      "location": "TODO",
+      "lat": null,
+      "lon": null,
+      "coord_source": "TODO",
+      "sites": [
+        {
+          "label": "Tranquility Base (Apollo 11 landing site)",
+          "lat": 0.67416,
+          "lon": 23.47314,
+          "coord_system": "Selenographic latitude, east-positive longitude, as given for 1969-059C",
+          "coord_source": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1969-059C"
+        }
+      ],
+      "status": "TODO",
+      "status_detail": "TODO",
+      "status_source": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1969-059C",
+      "landing": "TODO",
+      "story": "TODO",
+      "how_it_worked": "TODO",
+      "discoveries": [
+        "TODO"
+      ],
+      "timeline": [
+        "TODO"
+      ],
+      "status_text": "TODO",
+      "quick_facts": {
+        "launch_date": "16 July 1969",
+        "landing_date": "20 July 1969, 20:17:40 UT",
+        "mass": "2,034 kg dry (descent stage); 15,103 kg for the whole lunar module at launch",
+        "size": "Octagonal, 4.2 m across and 1.7 m tall",
+        "power_source": "Six silver-zinc batteries",
+        "designed_lifetime": "TODO",
+        "actual_lifetime": "21 hours 36 minutes on the lunar surface",
+        "last_contact": "27 August 1969 — the EASEP experiments it carried sent their last data"
+      },
+      "instruments": [
+        {
+          "name": "Early Apollo Scientific Experiments Package (EASEP)",
+          "what_it_did": "A small set of experiments set up near the lander: a seismometer to record ground shaking, a dust detector, and a mirror that reflects laser pulses sent from Earth."
+        },
+        {
+          "name": "Descent engine",
+          "what_it_did": "The engine burned to slow the lunar module from orbit to a gentle touchdown."
+        },
+        {
+          "name": "Landing radar",
+          "what_it_did": "Measured the module's height and speed above the surface so the crew could land safely."
+        }
+      ],
+      "key_numbers": [
+        {
+          "label": "Lunar samples brought home",
+          "value": "21.55 kg"
+        },
+        {
+          "label": "Time on the surface",
+          "value": "21 h 36 min"
+        },
+        {
+          "label": "People who walked on the Moon",
+          "value": "2"
+        }
+      ],
+      "did_you_know": [
+        "The descent stage stayed on the Moon. Only the upper part, the ascent stage, lifted off to carry the astronauts home.",
+        "It landed in the Sea of Tranquility, and the place is now called Tranquility Base."
+      ],
+      "mission_context": "Apollo 11 was the first mission to land people on the Moon. The descent stage did the heavy work: it carried the engine, the fuel, the landing legs and the experiments, and it was left behind when the crew departed.",
+      "related": [
+        "lunar_roving_vehicle",
+        "alsep",
+        "surveyor3"
+      ],
+      "image_file": "assets/images/apollo11_descent.jpg",
+      "image_credit": "NASA",
+      "image_source_url": "https://www.nasa.gov/image-detail/amf-as11-40-5915/",
+      "image_alt": "The Apollo 11 lunar module Eagle standing on the gray surface of the Moon, with its descent stage at the bottom.",
+      "sources": [
+        "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1969-059C"
+      ],
+      "phase": 1,
+      "verified": false
+    },
+    {
+      "id": "lunar_roving_vehicle",
+      "name": "Lunar Roving Vehicle",
+      "destination": "Moon",
+      "mission": "Apollo",
+      "also_includes": "TODO",
+      "type": "rover",
+      "location": "TODO",
+      "lat": null,
+      "lon": null,
+      "coord_source": "TODO",
+      "sites": [
+        {
+          "label": "Apollo 15 · Hadley–Apennine landing site",
+          "lat": 26.13239,
+          "lon": 3.6333,
+          "coord_system": "Mission landing-site coordinates for 1971-063C (selenographic, east-positive); the rover was not tracked as a separate object",
+          "coord_source": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1971-063C"
+        },
+        {
+          "label": "Apollo 16 · Descartes Highlands landing site",
+          "lat": -8.973,
+          "lon": 15.5002,
+          "coord_system": "Mission landing-site coordinates for 1972-031C (selenographic, east-positive); the rover was not tracked as a separate object",
+          "coord_source": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1972-031C"
+        },
+        {
+          "label": "Apollo 17 · Taurus–Littrow landing site",
+          "lat": 20.1911,
+          "lon": 30.7723,
+          "coord_system": "Mission landing-site coordinates for 1972-096C (selenographic, east-positive); the rover was not tracked as a separate object",
+          "coord_source": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1972-096C"
+        }
+      ],
+      "status": "TODO",
+      "status_detail": "TODO",
+      "status_source": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1971-063C",
+      "landing": "TODO",
+      "story": "TODO",
+      "how_it_worked": "TODO",
+      "discoveries": [
+        "TODO"
+      ],
+      "timeline": [
+        "TODO"
+      ],
+      "status_text": "TODO",
+      "quick_facts": {
+        "launch_date": "TODO",
+        "landing_date": "TODO",
+        "mass": "TODO",
+        "size": "TODO",
+        "power_source": "TODO",
+        "designed_lifetime": "TODO",
+        "actual_lifetime": "Used on three missions: Apollo 15, 16 and 17 (1971–1972)",
+        "last_contact": "TODO"
+      },
+      "instruments": [
+        {
+          "name": "TODO",
+          "what_it_did": "TODO"
+        }
+      ],
+      "key_numbers": [
+        {
+          "label": "Distance driven on Apollo 15",
+          "value": "27.9 km"
+        },
+        {
+          "label": "Distance driven on Apollo 16",
+          "value": "27 km"
+        },
+        {
+          "label": "Distance driven on Apollo 17",
+          "value": "30 km"
+        },
+        {
+          "label": "Samples returned on Apollo 15",
+          "value": "77.31 kg"
+        },
+        {
+          "label": "Samples returned on Apollo 16",
+          "value": "95.71 kg"
+        },
+        {
+          "label": "Samples returned on Apollo 17",
+          "value": "110.52 kg"
+        }
+      ],
+      "did_you_know": [
+        "Each rover was used on one mission only and stayed on the Moon afterwards.",
+        "The Apollo 17 crew found orange soil during one of their drives."
+      ],
+      "mission_context": "The lunar rover let astronauts travel kilometres from their lander instead of walking. That took them to more rocks and brought back far more samples than earlier crews could carry.",
+      "related": [
+        "apollo11_descent",
+        "alsep",
+        "surveyor3"
+      ],
+      "image_file": "assets/images/lunar_roving_vehicle.jpg",
+      "image_credit": "NASA",
+      "image_source_url": "https://www.nasa.gov/image-detail/amf-as15-85-11451/",
+      "image_alt": "An astronaut working at the Lunar Roving Vehicle parked at the edge of Hadley Rille on the Moon.",
+      "sources": [
+        "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1971-063C",
+        "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1972-031C",
+        "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1972-096C"
+      ],
+      "phase": 1,
+      "verified": false
+    },
+    {
+      "id": "alsep",
+      "name": "Apollo Lunar Surface Experiments Package (ALSEP)",
+      "destination": "Moon",
+      "mission": "Apollo",
+      "type": "instrument",
+      "location": "TODO",
+      "lat": null,
+      "lon": null,
+      "coord_source": "TODO",
+      "sites": [
+        {
+          "label": "Apollo 12 · Oceanus Procellarum",
+          "lat": -3.0094,
+          "lon": -23.4246,
+          "coord_system": "ALSEP central station coordinates for 1969-099C (selenographic, east-positive; negative = west)",
+          "coord_source": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1969-099C"
+        },
+        {
+          "label": "Apollo 14 · Fra Mauro",
+          "lat": -3.644,
+          "lon": -17.4775,
+          "coord_system": "ALSEP central station coordinates for 1971-008C (selenographic, east-positive; negative = west)",
+          "coord_source": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1971-008C"
+        },
+        {
+          "label": "Apollo 15 · Hadley–Apennine",
+          "lat": 26.1341,
+          "lon": 3.6298,
+          "coord_system": "ALSEP central station coordinates for 1971-063C (selenographic, east-positive)",
+          "coord_source": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1971-063C"
+        },
+        {
+          "label": "Apollo 16 · Descartes Highlands",
+          "lat": -8.9754,
+          "lon": 15.4981,
+          "coord_system": "ALSEP central station coordinates for 1972-031C (selenographic, east-positive)",
+          "coord_source": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1972-031C"
+        },
+        {
+          "label": "Apollo 17 · Taurus–Littrow",
+          "lat": 20.1921,
+          "lon": 30.7649,
+          "coord_system": "ALSEP central station coordinates for 1972-096C (selenographic, east-positive)",
+          "coord_source": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1972-096C"
+        }
+      ],
+      "status": "TODO",
+      "status_detail": "TODO",
+      "status_source": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1969-099C",
+      "landing": "TODO",
+      "story": "TODO",
+      "how_it_worked": "TODO",
+      "discoveries": [
+        "TODO"
+      ],
+      "timeline": [
+        "TODO"
+      ],
+      "status_text": "TODO",
+      "quick_facts": {
+        "launch_date": "Five missions: Apollo 12, 14, 15, 16 and 17 (1969–1972)",
+        "landing_date": "TODO",
+        "mass": "25 kg for the central station",
+        "size": "Central station volume 34,800 cm³",
+        "power_source": "SNAP-27 radioisotope thermoelectric generator, about 70 W at the start and 63.5 W after one year",
+        "designed_lifetime": "TODO",
+        "actual_lifetime": "Operated until 30 September 1977",
+        "last_contact": "30 September 1977"
+      },
+      "instruments": [
+        {
+          "name": "Passive Seismic Experiment",
+          "what_it_did": "Recorded ground movements to study moonquakes and the structure of the Moon's interior."
+        },
+        {
+          "name": "Heat Flow Experiment",
+          "what_it_did": "Measured how heat moves through the upper layers of the lunar surface."
+        },
+        {
+          "name": "Lunar Surface Magnetometer",
+          "what_it_did": "Measured the weak magnetic field at the landing site."
+        },
+        {
+          "name": "Solar Wind Spectrometer",
+          "what_it_did": "Measured the stream of charged particles from the Sun reaching the Moon's surface."
+        },
+        {
+          "name": "Suprathermal Ion Detector",
+          "what_it_did": "Studied ions near the surface and how the solar wind interacts with the Moon."
+        },
+        {
+          "name": "Cold Cathode Ion Gauge",
+          "what_it_did": "Measured how thin the Moon's surrounding gas is."
+        },
+        {
+          "name": "Active Seismic Experiment",
+          "what_it_did": "Used small explosive charges and a thumper to probe the layers just below the surface."
+        },
+        {
+          "name": "Lunar Dust Detector",
+          "what_it_did": "Tracked dust settling on equipment and how it affected the experiments."
+        }
+      ],
+      "key_numbers": [
+        {
+          "label": "Landing sites with an ALSEP",
+          "value": "5"
+        },
+        {
+          "label": "Years of operation",
+          "value": "About 8 (1969–1977)"
+        },
+        {
+          "label": "First artificial moonquake",
+          "value": "Recorded by the Apollo 12 seismometer"
+        }
+      ],
+      "did_you_know": [
+        "It used a small nuclear generator instead of solar panels, so it could keep working through the two-week lunar night.",
+        "The Apollo 12 seismometer recorded the first artificial moonquake, made by equipment the astronauts left behind."
+      ],
+      "mission_context": "ALSEP turned each Apollo landing site into a small science station. Its instruments kept sending data long after the astronauts had gone home, giving scientists years of measurements from the Moon.",
+      "related": [
+        "apollo11_descent",
+        "lunar_roving_vehicle"
+      ],
+      "image_file": "assets/images/alsep.jpg",
+      "image_credit": "NASA/JSC",
+      "image_source_url": "https://science.nasa.gov/resource/apollo-14-mission-image-view-of-the-alsep-station/",
+      "image_alt": "The Apollo 14 ALSEP central station stands on the lunar surface, with the mortar package of the active seismic experiment in the foreground and other equipment on the dusty ground around it.",
+      "sources": [
+        "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1969-099C",
+        "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1971-008C",
+        "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1971-063C",
+        "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1972-031C",
+        "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1972-096C"
+      ],
+      "phase": 1,
+      "verified": false
+    },
+    {
+      "id": "opportunity",
+      "name": "Opportunity rover",
+      "destination": "Mars",
+      "mission": "Mars Exploration Rover",
+      "type": "rover",
+      "location": "TODO",
+      "lat": null,
+      "lon": null,
+      "coord_source": "TODO",
+      "sites": [
+        {
+          "label": "Meridiani Planum",
+          "lat": -1.9483,
+          "lon": -5.52583,
+          "coord_system": "Source: 1.9483° S, 354.47417° E on the NASA MER mission page; converted to -5.52583° east-positive",
+          "coord_source": "https://science.nasa.gov/mission/mer-opportunity/"
+        }
+      ],
+      "status": "TODO",
+      "status_detail": "TODO",
+      "status_source": "https://science.nasa.gov/mission/mars-exploration-rovers-spirit-and-opportunity/",
+      "landing": "TODO",
+      "story": "TODO",
+      "how_it_worked": "TODO",
+      "discoveries": [
+        "TODO"
+      ],
+      "timeline": [
+        "TODO"
+      ],
+      "status_text": "TODO",
+      "quick_facts": {
+        "launch_date": "7 July 2003",
+        "landing_date": "25 January 2004, 04:54 UT",
+        "mass": "185 kg",
+        "size": "About the size of a golf cart",
+        "power_source": "Solar panels, up to about 140 W",
+        "designed_lifetime": "90 sols",
+        "actual_lifetime": "Almost 15 years",
+        "last_contact": "10 June 2018"
+      },
+      "instruments": [
+        {
+          "name": "Panoramic camera (Pancam)",
+          "what_it_did": "Took colour and stereo pictures of the landscape and rocks."
+        },
+        {
+          "name": "Navigation camera",
+          "what_it_did": "Helped the rover steer around obstacles."
+        },
+        {
+          "name": "Miniature Thermal Emission Spectrometer (Mini-TES)",
+          "what_it_did": "Identified minerals by the heat they give off."
+        },
+        {
+          "name": "Mössbauer spectrometer",
+          "what_it_did": "Studied iron-bearing minerals in rocks and soil."
+        },
+        {
+          "name": "Alpha Particle X-ray Spectrometer (APXS)",
+          "what_it_did": "Measured the chemical elements in rocks and soil."
+        },
+        {
+          "name": "Rock Abrasion Tool (RAT)",
+          "what_it_did": "Ground away the dusty outside of rocks so their insides could be studied."
+        },
+        {
+          "name": "Microscopic Imager",
+          "what_it_did": "Took close-up pictures of rock textures and soil grains."
+        },
+        {
+          "name": "Magnets",
+          "what_it_did": "Collected magnetic dust so its composition could be studied."
+        }
+      ],
+      "key_numbers": [
+        {
+          "label": "Distance driven",
+          "value": "45.16 km"
+        },
+        {
+          "label": "Designed mission length",
+          "value": "90 sols"
+        },
+        {
+          "label": "Steepest slope climbed",
+          "value": "32°"
+        }
+      ],
+      "did_you_know": [
+        "It found the first meteorite ever identified on another planet, later named Heat Shield Rock.",
+        "It drove farther than a marathon — about 42 km — during its time on Mars.",
+        "Its mission was planned for 90 sols but lasted almost 15 years."
+      ],
+      "mission_context": "Opportunity was sent to look for signs that liquid water once existed on Mars. It kept working for almost 15 years, far beyond its planned 90 sols, and sent back evidence of ancient wet environments.",
+      "related": [
+        "spirit",
+        "sojourner",
+        "ingenuity"
+      ],
+      "image_file": "assets/images/opportunity.jpg",
+      "image_credit": "NASA/JPL-Caltech/Cornell",
+      "image_source_url": "https://photojournal.jpl.nasa.gov/catalog/PIA15114",
+      "image_alt": "Opportunity rover seen from above in a self-portrait mosaic taken in 2007, with dust on its solar panels.",
+      "sources": [
+        "https://science.nasa.gov/mission/mars-exploration-rovers-spirit-and-opportunity/",
+        "https://science.nasa.gov/mission/mer-opportunity/",
+        "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=2003-032A"
+      ],
+      "phase": 1,
+      "verified": false
+    },
+    {
+      "id": "spirit",
+      "name": "Spirit rover",
+      "destination": "Mars",
+      "mission": "Mars Exploration Rover",
+      "type": "rover",
+      "location": "TODO",
+      "lat": null,
+      "lon": null,
+      "coord_source": "TODO",
+      "sites": [
+        {
+          "label": "Gusev Crater",
+          "lat": -14.5692,
+          "lon": 175.4729,
+          "coord_system": "Coordinates from the NASA MER Spirit mission page (east-positive longitude)",
+          "coord_source": "https://science.nasa.gov/mission/mer-spirit/"
+        }
+      ],
+      "status": "TODO",
+      "status_detail": "TODO",
+      "status_source": "https://science.nasa.gov/mission/mars-exploration-rovers-spirit-and-opportunity/",
+      "landing": "TODO",
+      "story": "TODO",
+      "how_it_worked": "TODO",
+      "discoveries": [
+        "TODO"
+      ],
+      "timeline": [
+        "TODO"
+      ],
+      "status_text": "TODO",
+      "quick_facts": {
+        "launch_date": "10 June 2003",
+        "landing_date": "4 January 2004, 04:35 UT",
+        "mass": "185 kg",
+        "size": "About the size of a golf cart",
+        "power_source": "Solar panels, up to about 140 W",
+        "designed_lifetime": "90 sols",
+        "actual_lifetime": "6 years, 2 months and 19 days",
+        "last_contact": "22 March 2010"
+      },
+      "instruments": [
+        {
+          "name": "Panoramic camera (Pancam)",
+          "what_it_did": "Took colour and stereo pictures of the landscape and rocks."
+        },
+        {
+          "name": "Navigation camera",
+          "what_it_did": "Helped the rover steer around obstacles."
+        },
+        {
+          "name": "Miniature Thermal Emission Spectrometer (Mini-TES)",
+          "what_it_did": "Identified minerals by the heat they give off."
+        },
+        {
+          "name": "Mössbauer spectrometer",
+          "what_it_did": "Studied iron-bearing minerals in rocks and soil."
+        },
+        {
+          "name": "Alpha Particle X-ray Spectrometer (APXS)",
+          "what_it_did": "Measured the chemical elements in rocks and soil."
+        },
+        {
+          "name": "Rock Abrasion Tool (RAT)",
+          "what_it_did": "Ground away the dusty outside of rocks so their insides could be studied."
+        },
+        {
+          "name": "Microscopic Imager",
+          "what_it_did": "Took close-up pictures of rock textures and soil grains."
+        },
+        {
+          "name": "Magnets",
+          "what_it_did": "Collected magnetic dust so its composition could be studied."
+        }
+      ],
+      "key_numbers": [
+        {
+          "label": "Distance driven",
+          "value": "7.73 km"
+        },
+        {
+          "label": "Designed mission length",
+          "value": "90 sols"
+        },
+        {
+          "label": "First rock ground by the RAT",
+          "value": "Adirondack"
+        }
+      ],
+      "did_you_know": [
+        "It climbed Husband Hill to study the rocks higher up.",
+        "It found rocks rich in silica, a clue that water once flowed or steamed there.",
+        "It got stuck in soft soil and could not escape, but kept doing science from the same spot."
+      ],
+      "mission_context": "Spirit landed in Gusev Crater to search for signs of past water. It climbed hills, ground into rocks and kept working for more than six years, far longer than the 90 sols it was built for.",
+      "related": [
+        "opportunity",
+        "sojourner",
+        "ingenuity"
+      ],
+      "image_file": "assets/images/spirit.jpg",
+      "image_credit": "NASA/JPL-Caltech/Cornell",
+      "image_source_url": "https://photojournal.jpl.nasa.gov/catalog/pia03275",
+      "image_alt": "Bird's-eye view of the Spirit rover's deck and solar panels on a hilltop in Gusev Crater, with the Martian landscape around it.",
+      "sources": [
+        "https://science.nasa.gov/mission/mars-exploration-rovers-spirit-and-opportunity/",
+        "https://science.nasa.gov/mission/mer-spirit/",
+        "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=2003-027A"
+      ],
+      "phase": 1,
+      "verified": false
+    },
+    {
+      "id": "sojourner",
+      "name": "Sojourner rover",
+      "destination": "Mars",
+      "mission": "Mars Pathfinder",
+      "type": "rover",
+      "location": "TODO",
+      "lat": null,
+      "lon": null,
+      "coord_source": "TODO",
+      "sites": [
+        {
+          "label": "Ares Vallis",
+          "lat": 19.33,
+          "lon": -33.55,
+          "coord_system": "Source: 19.33° N, 33.55° W on the NSSDCA record for the Mars Pathfinder lander; converted to -33.55° east-positive",
+          "coord_source": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1996-068A"
+        }
+      ],
+      "status": "TODO",
+      "status_detail": "TODO",
+      "status_source": "https://science.nasa.gov/mission/mars-pathfinder/",
+      "landing": "TODO",
+      "story": "TODO",
+      "how_it_worked": "TODO",
+      "discoveries": [
+        "TODO"
+      ],
+      "timeline": [
+        "TODO"
+      ],
+      "status_text": "TODO",
+      "quick_facts": {
+        "launch_date": "4 December 1996",
+        "landing_date": "4 July 1997 (lander touchdown); the rover drove onto the surface on 6 July 1997",
+        "mass": "10.6 kg",
+        "size": "30 cm tall",
+        "power_source": "Solar panel",
+        "designed_lifetime": "7 sols",
+        "actual_lifetime": "About 12 weeks",
+        "last_contact": "27 September 1997"
+      },
+      "instruments": [
+        {
+          "name": "Alpha Particle X-ray Spectrometer (APXS)",
+          "what_it_did": "Measured the chemical elements in rocks and soil."
+        },
+        {
+          "name": "Cameras",
+          "what_it_did": "Took pictures of the surface and the rover's surroundings."
+        }
+      ],
+      "key_numbers": [
+        {
+          "label": "Landing date",
+          "value": "4 July 1997"
+        },
+        {
+          "label": "Rover images returned",
+          "value": "550"
+        },
+        {
+          "label": "Mass",
+          "value": "10.6 kg"
+        }
+      ],
+      "did_you_know": [
+        "It landed inside airbags that bounced across the surface before coming to rest.",
+        "It was the first wheeled vehicle to drive on another planet."
+      ],
+      "mission_context": "Sojourner was a small rover carried by the Mars Pathfinder lander. It showed that a low-cost rover could drive on Mars and study rocks up close, opening the way for the larger rovers that followed.",
+      "related": [
+        "opportunity",
+        "spirit",
+        "ingenuity"
+      ],
+      "image_file": "assets/images/sojourner.jpg",
+      "image_credit": "NASA/JPL",
+      "image_source_url": "https://photojournal.jpl.nasa.gov/catalog/PIA01122",
+      "image_alt": "The small Sojourner rover on the reddish Martian ground near a group of three small rocks, photographed by the Pathfinder lander.",
+      "sources": [
+        "https://science.nasa.gov/mission/mars-pathfinder/",
+        "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1996-068A"
+      ],
+      "phase": 1,
+      "verified": false
+    },
+    {
+      "id": "pioneer10",
+      "name": "Pioneer 10",
+      "destination": "Beyond",
+      "mission": "Pioneer",
+      "type": "spacecraft",
+      "location": "TODO",
+      "lat": null,
+      "lon": null,
+      "coord_source": "TODO",
+      "sites": [],
+      "status": "TODO",
+      "status_detail": "TODO",
+      "status_source": "https://science.nasa.gov/mission/pioneer-10/",
+      "landing": "TODO",
+      "story": "TODO",
+      "how_it_worked": "TODO",
+      "discoveries": [
+        "TODO"
+      ],
+      "timeline": [
+        "TODO"
+      ],
+      "status_text": "TODO",
+      "quick_facts": {
+        "launch_date": "2 March 1972",
+        "landing_date": "No landing — flyby mission",
+        "mass": "258 kg",
+        "size": "2.74 m dish antenna",
+        "power_source": "SNAP-19 radioisotope thermoelectric generators, about 140 W at Jupiter",
+        "designed_lifetime": "21 months",
+        "actual_lifetime": "More than 30 years",
+        "last_contact": "23 January 2003"
+      },
+      "instruments": [
+        {
+          "name": "Imaging photopolarimeter",
+          "what_it_did": "Took pictures and measured the polarisation of light from Jupiter."
+        },
+        {
+          "name": "Magnetometer",
+          "what_it_did": "Measured magnetic fields around Jupiter and in interplanetary space."
+        },
+        {
+          "name": "Plasma analyser",
+          "what_it_did": "Measured charged particles in the solar wind."
+        },
+        {
+          "name": "Charged particle detector",
+          "what_it_did": "Counted energetic particles in space."
+        },
+        {
+          "name": "Cosmic-ray telescope",
+          "what_it_did": "Studied cosmic rays coming from outside the solar system."
+        },
+        {
+          "name": "Meteoroid detector",
+          "what_it_did": "Counted tiny dust grains hitting the spacecraft."
+        },
+        {
+          "name": "Ultraviolet photometer",
+          "what_it_did": "Measured ultraviolet light from Jupiter and space."
+        },
+        {
+          "name": "Infrared radiometer",
+          "what_it_did": "Measured heat given off by Jupiter."
+        }
+      ],
+      "key_numbers": [
+        {
+          "label": "Jupiter flyby",
+          "value": "4 December 1973"
+        },
+        {
+          "label": "Distance at last contact",
+          "value": "12.23 billion km"
+        },
+        {
+          "label": "Neptune orbit crossed",
+          "value": "13 June 1983"
+        }
+      ],
+      "did_you_know": [
+        "It crossed the orbit of Neptune in 1983, becoming one of the first human-made objects to leave the planetary region.",
+        "It is heading toward the star Aldebaran."
+      ],
+      "mission_context": "Pioneer 10 was the first spacecraft to fly through the asteroid belt and the first to fly past Jupiter. It showed that a spacecraft could survive the trip to the outer solar system, and it kept sending signals for more than 30 years.",
+      "related": [
+        "pioneer11",
+        "kepler"
+      ],
+      "image_file": "assets/images/pioneer10.jpg",
+      "image_credit": "NASA",
+      "image_source_url": "https://science.nasa.gov/mission/pioneer-10/",
+      "image_alt": "Artist's concept: Pioneer 10 flies through space with its large dish antenna and long instrument booms, with the banded edge of Jupiter in the background.",
+      "sources": [
+        "https://science.nasa.gov/mission/pioneer-10/",
+        "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1972-012A"
+      ],
+      "phase": 1,
+      "verified": false
+    },
+    {
+      "id": "kepler",
+      "name": "Kepler Space Telescope",
+      "destination": "Beyond",
+      "mission": "Kepler",
+      "type": "telescope",
+      "location": "TODO",
+      "lat": null,
+      "lon": null,
+      "coord_source": "TODO",
+      "sites": [],
+      "status": "TODO",
+      "status_detail": "TODO",
+      "status_source": "https://science.nasa.gov/mission/kepler/",
+      "landing": "TODO",
+      "story": "TODO",
+      "how_it_worked": "TODO",
+      "discoveries": [
+        "TODO"
+      ],
+      "timeline": [
+        "TODO"
+      ],
+      "status_text": "TODO",
+      "quick_facts": {
+        "launch_date": "7 March 2009, 03:50 UT",
+        "landing_date": "No landing — space telescope",
+        "mass": "1,052 kg",
+        "size": "1.4 m mirror with a 12° field of view",
+        "power_source": "Solar panels",
+        "designed_lifetime": "3.5 years",
+        "actual_lifetime": "9 years",
+        "last_contact": "30 October 2018 (retired)"
+      },
+      "instruments": [
+        {
+          "name": "Photometer",
+          "what_it_did": "Watched thousands of stars and measured tiny dips in their brightness when a planet passed in front of one."
+        }
+      ],
+      "key_numbers": [
+        {
+          "label": "Exoplanets confirmed",
+          "value": "More than 2,600"
+        },
+        {
+          "label": "Stars observed in the K2 mission",
+          "value": "More than 500,000"
+        },
+        {
+          "label": "Years of operation",
+          "value": "9"
+        }
+      ],
+      "did_you_know": [
+        "It found planets by watching stars dim, not by looking at the planets themselves.",
+        "It was NASA's first mission dedicated to finding planets around other stars."
+      ],
+      "mission_context": "Kepler was built to answer a simple question: how common are Earth-sized planets around other stars? By staring at one patch of sky for years, it showed that planets are common and found thousands of them.",
+      "related": [],
+      "image_file": "assets/images/kepler.jpg",
+      "image_credit": "NASA/Ames/JPL-Caltech",
+      "image_source_url": "https://science.nasa.gov/photojournal/kepler-in-space-artist-concept/",
+      "image_alt": "Artist's concept: The Kepler space telescope, wrapped in gold foil with its solar panel extended, floats against a field of stars with planets and the Sun in the distance.",
+      "sources": [
+        "https://science.nasa.gov/mission/kepler/",
+        "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=2009-011A"
+      ],
+      "phase": 1,
+      "verified": false
+    },
+    {
+      "id": "surveyor3",
+      "name": "Surveyor 3",
+      "destination": "Moon",
+      "mission": "Surveyor",
+      "type": "lander",
+      "location": "TODO",
+      "lat": null,
+      "lon": null,
+      "coord_source": "TODO",
+      "sites": [
+        {
+          "label": "Oceanus Procellarum (Surveyor 3 landing site)",
+          "lat": -3.0162,
+          "lon": -23.418,
+          "coord_system": "Source: 3.0162° S, 336.582° E on NSSDCA record 1967-035A; converted to -23.418° east-positive",
+          "coord_source": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1967-035A"
+        }
+      ],
+      "status": "TODO",
+      "status_detail": "TODO",
+      "status_source": "https://science.nasa.gov/mission/surveyor-3/",
+      "landing": "TODO",
+      "story": "TODO",
+      "how_it_worked": "TODO",
+      "discoveries": [
+        "TODO"
+      ],
+      "timeline": [
+        "TODO"
+      ],
+      "status_text": "TODO",
+      "quick_facts": {
+        "launch_date": "17 April 1967, 07:05:01 UT",
+        "landing_date": "20 April 1967, 00:04 UT",
+        "mass": "296 kg at landing",
+        "size": "3 m tall; footpads 4.3 m apart",
+        "power_source": "Solar panels with 792 cells, up to 85 W",
+        "designed_lifetime": "TODO",
+        "actual_lifetime": "About two weeks of surface operations",
+        "last_contact": "4 May 1967"
+      },
+      "instruments": [
+        {
+          "name": "Television camera",
+          "what_it_did": "Sent back 6,326 pictures of the lunar surface and the spacecraft."
+        },
+        {
+          "name": "Soil mechanics surface sampler",
+          "what_it_did": "A scoop on a 1.5 m arm that dug into the soil and tested how it behaved."
+        }
+      ],
+      "key_numbers": [
+        {
+          "label": "Pictures returned",
+          "value": "6,326"
+        },
+        {
+          "label": "Distance Apollo 12 walked to it",
+          "value": "180 m"
+        },
+        {
+          "label": "Reach of the soil scoop",
+          "value": "1.5 m"
+        }
+      ],
+      "did_you_know": [
+        "Apollo 12 astronauts walked 180 m to visit Surveyor 3 and brought part of its camera back to Earth.",
+        "Its pictures showed that lunar soil behaved like wet sand."
+      ],
+      "mission_context": "Surveyor 3 showed that a spacecraft could make a soft landing on the Moon and that the surface could support heavy equipment. Two and a half years later, Apollo 12 landed nearby and inspected it.",
+      "related": [
+        "apollo11_descent",
+        "alsep"
+      ],
+      "image_file": "assets/images/surveyor3.jpg",
+      "image_credit": "NASA",
+      "image_source_url": "https://images.nasa.gov/details/as12-48-7121",
+      "image_alt": "The Surveyor 3 lander sits tilted inside a small crater on the Moon, with astronaut footprints in the dust around it.",
+      "sources": [
+        "https://science.nasa.gov/mission/surveyor-3/",
+        "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1967-035A"
+      ],
+      "phase": 2,
+      "verified": false
+    },
+    {
+      "id": "viking1",
+      "name": "Viking 1 lander",
+      "destination": "Mars",
+      "mission": "Viking",
+      "type": "lander",
+      "location": "TODO",
+      "lat": null,
+      "lon": null,
+      "coord_source": "TODO",
+      "sites": [
+        {
+          "label": "Chryse Planitia",
+          "lat": 22.27,
+          "lon": -47.95,
+          "coord_system": "Source: 22.27° N, 312.05° E planetocentric on NSSDCA record 1975-075C; converted to -47.95° east-positive",
+          "coord_source": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1975-075C"
+        }
+      ],
+      "status": "TODO",
+      "status_detail": "TODO",
+      "status_source": "https://science.nasa.gov/mission/viking-1/",
+      "landing": "TODO",
+      "story": "TODO",
+      "how_it_worked": "TODO",
+      "discoveries": [
+        "TODO"
+      ],
+      "timeline": [
+        "TODO"
+      ],
+      "status_text": "TODO",
+      "quick_facts": {
+        "launch_date": "20 August 1975",
+        "landing_date": "20 July 1976, 11:53:06 UT",
+        "mass": "978 kg (lander)",
+        "size": "The lander's base forms a triangle 2.21 m on a side",
+        "power_source": "Two SNAP-19 radioisotope thermoelectric generators, about 70 W",
+        "designed_lifetime": "90 sols",
+        "actual_lifetime": "Operated until 11 November 1982",
+        "last_contact": "11 November 1982"
+      },
+      "instruments": [
+        {
+          "name": "Two cameras",
+          "what_it_did": "Took the first pictures from the surface of Mars and made panoramas of the landing site."
+        },
+        {
+          "name": "Gas chromatograph–mass spectrometer",
+          "what_it_did": "Analysed the atmosphere and soil for organic molecules."
+        },
+        {
+          "name": "Biology experiments",
+          "what_it_did": "Tested soil samples for signs of living organisms."
+        },
+        {
+          "name": "Meteorology boom",
+          "what_it_did": "Measured temperature, wind and pressure at the surface."
+        },
+        {
+          "name": "Seismometer",
+          "what_it_did": "Was meant to record marsquakes, but it did not work after landing."
+        },
+        {
+          "name": "Magnet and X-ray fluorescence experiment",
+          "what_it_did": "Studied magnetic dust and the elements in the soil."
+        }
+      ],
+      "key_numbers": [
+        {
+          "label": "Lander photographs",
+          "value": "About 4,500"
+        },
+        {
+          "label": "Orbiter images",
+          "value": "52,663"
+        },
+        {
+          "label": "First successful landing on Mars",
+          "value": "20 July 1976"
+        }
+      ],
+      "did_you_know": [
+        "Its gas chromatograph found no organic molecules in the soil, which surprised scientists.",
+        "It took the first picture ever sent back from the surface of Mars."
+      ],
+      "mission_context": "Viking 1 was the first mission to land successfully on Mars and to send pictures from the surface. Its experiments looked for signs of life and studied the Martian atmosphere and soil.",
+      "related": [
+        "viking2",
+        "sojourner"
+      ],
+      "image_file": "assets/images/viking1.jpg",
+      "image_credit": "NASA/JPL",
+      "image_source_url": "https://science.nasa.gov/photojournal/first-panoramic-view-from-the-surface-of-mars/",
+      "image_alt": "Two black-and-white Viking 1 panoramas of rocky Martian ground, with the lander's camera housing, antenna dish and mast in the foreground.",
+      "sources": [
+        "https://science.nasa.gov/mission/viking-1/",
+        "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1975-075C"
+      ],
+      "phase": 1,
+      "verified": false
+    },
+    {
+      "id": "viking2",
+      "name": "Viking 2 lander",
+      "destination": "Mars",
+      "mission": "Viking",
+      "type": "lander",
+      "location": "TODO",
+      "lat": null,
+      "lon": null,
+      "coord_source": "TODO",
+      "sites": [
+        {
+          "label": "Utopia Planitia",
+          "lat": 47.6673,
+          "lon": 134.2809,
+          "coord_system": "Source: 47.6673° N, 134.2809° E planetocentric on NSSDCA record 1975-083C; the NASA mission page gives 47.968° N, 225.71° W, the same longitude measured westward",
+          "coord_source": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1975-083C"
+        }
+      ],
+      "status": "TODO",
+      "status_detail": "TODO",
+      "status_source": "https://science.nasa.gov/mission/viking-1/",
+      "landing": "TODO",
+      "story": "TODO",
+      "how_it_worked": "TODO",
+      "discoveries": [
+        "TODO"
+      ],
+      "timeline": [
+        "TODO"
+      ],
+      "status_text": "TODO",
+      "quick_facts": {
+        "launch_date": "9 September 1975",
+        "landing_date": "3 September 1976, 22:58:20 UT",
+        "mass": "978 kg (lander)",
+        "size": "The lander's base forms a triangle 2.21 m on a side",
+        "power_source": "Two SNAP-19 radioisotope thermoelectric generators",
+        "designed_lifetime": "90 sols",
+        "actual_lifetime": "1,281 sols",
+        "last_contact": "12 April 1980"
+      },
+      "instruments": [
+        {
+          "name": "Two cameras",
+          "what_it_did": "Took pictures of the landing site and made panoramas."
+        },
+        {
+          "name": "Gas chromatograph–mass spectrometer",
+          "what_it_did": "Analysed the atmosphere and soil for organic molecules."
+        },
+        {
+          "name": "Biology experiments",
+          "what_it_did": "Tested soil samples for signs of living organisms."
+        },
+        {
+          "name": "Meteorology boom",
+          "what_it_did": "Measured temperature, wind and pressure at the surface."
+        },
+        {
+          "name": "Seismometer",
+          "what_it_did": "Recorded ground movements at the landing site."
+        }
+      ],
+      "key_numbers": [
+        {
+          "label": "Sols of operation",
+          "value": "1,281"
+        },
+        {
+          "label": "Distance from Viking 1",
+          "value": "About 4,000 miles (6,400 km)"
+        },
+        {
+          "label": "Tilt after landing",
+          "value": "About 8.5°"
+        }
+      ],
+      "did_you_know": [
+        "It landed about 4,000 miles from Viking 1, on the other side of the planet.",
+        "It came to rest tilted about 8.5° on the surface."
+      ],
+      "mission_context": "Viking 2 was the second spacecraft to land successfully on Mars. It worked for more than three Mars years at Utopia Planitia, studying the soil, the atmosphere and the weather.",
+      "related": [
+        "viking1",
+        "sojourner"
+      ],
+      "image_file": "assets/images/viking2.jpg",
+      "image_credit": "NASA/JPL",
+      "image_source_url": "https://science.nasa.gov/photojournal/viking-lander-2s-first-picture-on-the-surface-of-mars/",
+      "image_alt": "A black-and-white view of rocks scattered across the Martian surface beside the edge of Viking Lander 2.",
+      "sources": [
+        "https://science.nasa.gov/mission/viking-1/",
+        "https://science.nasa.gov/mission/viking-2/",
+        "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1975-083C"
+      ],
+      "phase": 2,
+      "verified": false
+    },
+    {
+      "id": "insight",
+      "name": "InSight lander",
+      "destination": "Mars",
+      "mission": "InSight",
+      "type": "lander",
+      "location": "TODO",
+      "lat": null,
+      "lon": null,
+      "coord_source": "TODO",
+      "sites": [
+        {
+          "label": "Elysium Planitia",
+          "lat": 4.5,
+          "lon": 135.9,
+          "coord_system": "Coordinates from the NASA InSight mission page (east-positive longitude)",
+          "coord_source": "https://science.nasa.gov/mission/insight/"
+        }
+      ],
+      "status": "TODO",
+      "status_detail": "TODO",
+      "status_source": "https://science.nasa.gov/mission/insight/",
+      "landing": "TODO",
+      "story": "TODO",
+      "how_it_worked": "TODO",
+      "discoveries": [
+        "TODO"
+      ],
+      "timeline": [
+        "TODO"
+      ],
+      "status_text": "TODO",
+      "quick_facts": {
+        "launch_date": "5 May 2018",
+        "landing_date": "26 November 2018, 19:52:59 UT",
+        "mass": "360 kg at landing",
+        "size": "Two solar arrays, each 2.2 m across; about 6 m tip to tip",
+        "power_source": "Solar panels",
+        "designed_lifetime": "One Mars year (about two Earth years)",
+        "actual_lifetime": "Four years, ending 15 December 2022",
+        "last_contact": "15 December 2022"
+      },
+      "instruments": [
+        {
+          "name": "Seismometer (SEIS)",
+          "what_it_did": "Listened for marsquakes and vibrations to study the inside of Mars."
+        },
+        {
+          "name": "Heat probe (HP3)",
+          "what_it_did": "Was designed to hammer metres into the ground to measure heat flowing out of Mars; it reached about 40 cm."
+        },
+        {
+          "name": "Radio science experiment (RISE)",
+          "what_it_did": "Tracked the lander's radio signal to study the planet's core and wobble."
+        },
+        {
+          "name": "TWINS weather station",
+          "what_it_did": "Measured temperature, wind and pressure at the surface."
+        },
+        {
+          "name": "Pressure sensor",
+          "what_it_did": "Recorded tiny changes in air pressure, including the sound of wind."
+        },
+        {
+          "name": "Magnetometer",
+          "what_it_did": "Measured the local magnetic field."
+        },
+        {
+          "name": "Cameras",
+          "what_it_did": "Took pictures of the landing site and the instruments."
+        },
+        {
+          "name": "Infrared radiometer",
+          "what_it_did": "Measured the temperature of the ground."
+        }
+      ],
+      "key_numbers": [
+        {
+          "label": "Depth reached by the heat probe",
+          "value": "About 40 cm"
+        },
+        {
+          "label": "Planned mission length",
+          "value": "One Mars year"
+        },
+        {
+          "label": "Landing latitude",
+          "value": "4.5° N"
+        }
+      ],
+      "did_you_know": [
+        "It listened to the wind on Mars — its seismometer picked up the rumble of gusts.",
+        "Its heat probe was designed to hammer metres deep but only reached about 40 cm."
+      ],
+      "mission_context": "InSight was built to study the inside of Mars. By listening to marsquakes and measuring heat and radio signals, it helped scientists work out how rocky planets form.",
+      "related": [
+        "phoenix",
+        "viking1",
+        "viking2"
+      ],
+      "image_file": "assets/images/insight.jpg",
+      "image_credit": "NASA/JPL-Caltech",
+      "image_source_url": "https://science.nasa.gov/photojournal/insights-first-selfie/",
+      "image_alt": "A self-portrait of the InSight lander on Mars shows its two round solar arrays and deck instruments on reddish, dusty ground.",
+      "sources": [
+        "https://science.nasa.gov/mission/insight/",
+        "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=2018-042A"
+      ],
+      "phase": 1,
+      "verified": false
+    },
+    {
+      "id": "phoenix",
+      "name": "Phoenix lander",
+      "destination": "Mars",
+      "mission": "Phoenix",
+      "type": "lander",
+      "location": "TODO",
+      "lat": null,
+      "lon": null,
+      "coord_source": "TODO",
+      "sites": [
+        {
+          "label": "Vastitas Borealis (Green Valley)",
+          "lat": 68.22,
+          "lon": -125.75,
+          "coord_system": "Source: 68.22° N, 234.25° E on the NASA Phoenix mission page; converted to -125.75° east-positive",
+          "coord_source": "https://science.nasa.gov/mission/mars-phoenix/"
+        }
+      ],
+      "status": "TODO",
+      "status_detail": "TODO",
+      "status_source": "https://science.nasa.gov/mission/insight/",
+      "landing": "TODO",
+      "story": "TODO",
+      "how_it_worked": "TODO",
+      "discoveries": [
+        "TODO"
+      ],
+      "timeline": [
+        "TODO"
+      ],
+      "status_text": "TODO",
+      "quick_facts": {
+        "launch_date": "4 August 2007",
+        "landing_date": "25 May 2008, 23:53 UT",
+        "mass": "55 kg of science payload",
+        "size": "2.5 m robotic arm; 2 m camera mast; two octagonal solar arrays",
+        "power_source": "Solar panels",
+        "designed_lifetime": "90 sols",
+        "actual_lifetime": "About five months, until 2 November 2008",
+        "last_contact": "2 November 2008"
+      },
+      "instruments": [
+        {
+          "name": "Stereo Surface Imager (SSI)",
+          "what_it_did": "Took pictures and panoramas of the landing site."
+        },
+        {
+          "name": "Robotic Arm Camera (RAC)",
+          "what_it_did": "Took close-up pictures of soil and ice at the end of the arm."
+        },
+        {
+          "name": "Microscopy, Electrochemistry and Conductivity Analyser (MECA)",
+          "what_it_did": "Analysed soil chemistry and looked at tiny particles."
+        },
+        {
+          "name": "Thermal and Evolved Gas Analyser (TEGA)",
+          "what_it_did": "Heated soil samples and measured the gases they released."
+        },
+        {
+          "name": "Meteorological Station (MET)",
+          "what_it_did": "Measured temperature, pressure, wind and dust in the air."
+        }
+      ],
+      "key_numbers": [
+        {
+          "label": "Robotic arm reach",
+          "value": "2.5 m"
+        },
+        {
+          "label": "Planned mission length",
+          "value": "90 sols"
+        },
+        {
+          "label": "Landing latitude",
+          "value": "68.22° N"
+        }
+      ],
+      "did_you_know": [
+        "It dug down and found bright water ice just below the surface.",
+        "It landed farther north than any mission before it."
+      ],
+      "mission_context": "Phoenix landed near the north pole of Mars to look for water ice. It dug into the soil, confirmed that ice was there, and studied whether the ground could once have supported life.",
+      "related": [
+        "insight",
+        "viking2"
+      ],
+      "image_file": "assets/images/phoenix.jpg",
+      "image_credit": "NASA/JPL-Caltech/University of Arizona/Texas A&M University",
+      "image_source_url": "https://science.nasa.gov/photojournal/phoenix-lander-self-portrait-on-mars-vertical-projection/",
+      "image_alt": "A top-down self-portrait of the Phoenix lander on Mars shows its circular solar arrays spread across the surface.",
+      "sources": [
+        "https://science.nasa.gov/mission/mars-phoenix/",
+        "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=2007-034A"
+      ],
+      "phase": 2,
+      "verified": false
+    },
+    {
+      "id": "ingenuity",
+      "name": "Ingenuity helicopter",
+      "destination": "Mars",
+      "mission": "Mars 2020",
+      "type": "helicopter",
+      "location": "TODO",
+      "lat": null,
+      "lon": null,
+      "coord_source": "TODO",
+      "sites": [
+        {
+          "label": "Jezero Crater",
+          "lat": null,
+          "lon": null,
+          "coord_system": "TODO",
+          "coord_source": "TODO"
+        }
+      ],
+      "status": "TODO",
+      "status_detail": "TODO",
+      "status_source": "https://science.nasa.gov/mission/mars-2020-perseverance/ingenuity-mars-helicopter/",
+      "landing": "TODO",
+      "story": "TODO",
+      "how_it_worked": "TODO",
+      "discoveries": [
+        "TODO"
+      ],
+      "timeline": [
+        "TODO"
+      ],
+      "status_text": "TODO",
+      "quick_facts": {
+        "launch_date": "30 July 2020",
+        "landing_date": "18 February 2021",
+        "mass": "1.8 kg",
+        "size": "Rotor blades about 1.2 m tip to tip",
+        "power_source": "Solar panel and lithium-ion batteries",
+        "designed_lifetime": "Five flights in 30 days",
+        "actual_lifetime": "72 flights over almost three years",
+        "last_contact": "25 January 2024 (mission completed after its last flight on 18 January 2024)"
+      },
+      "instruments": [
+        {
+          "name": "Cameras",
+          "what_it_did": "A colour camera and a black-and-white navigation camera helped it fly and photograph the ground."
+        }
+      ],
+      "key_numbers": [
+        {
+          "label": "Flights",
+          "value": "72"
+        },
+        {
+          "label": "Distance flown",
+          "value": "17.0 km"
+        },
+        {
+          "label": "Time in the air",
+          "value": "128.8 minutes"
+        },
+        {
+          "label": "Highest altitude",
+          "value": "24.0 m"
+        }
+      ],
+      "did_you_know": [
+        "It made the first powered flight on another planet.",
+        "It was planned as a technology test with five flights, but made 72."
+      ],
+      "mission_context": "Ingenuity flew to Mars attached to the Perseverance rover as a technology test. It proved that a helicopter can fly in the thin Martian air, and then went on to scout ahead for the rover.",
+      "related": [
+        "opportunity",
+        "spirit",
+        "sojourner"
+      ],
+      "image_file": "assets/images/ingenuity.jpg",
+      "image_credit": "NASA/JPL-Caltech",
+      "image_source_url": "https://science.nasa.gov/photojournal/nasas-ingenuity-mars-helicopter/",
+      "image_alt": "The Ingenuity Mars helicopter, with its two black rotor blades and gold body, is shown against a pale background.",
+      "sources": [
+        "https://science.nasa.gov/mission/mars-2020-perseverance/ingenuity-mars-helicopter/",
+        "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=2020-052A"
+      ],
+      "phase": 2,
+      "verified": false
+    },
+    {
+      "id": "dawn",
+      "name": "Dawn spacecraft",
+      "destination": "Beyond",
+      "mission": "Dawn",
+      "type": "spacecraft",
+      "location": "TODO",
+      "lat": null,
+      "lon": null,
+      "coord_source": "TODO",
+      "sites": [],
+      "status": "TODO",
+      "status_detail": "TODO",
+      "status_source": "https://science.nasa.gov/mission/dawn/",
+      "landing": "TODO",
+      "story": "TODO",
+      "how_it_worked": "TODO",
+      "discoveries": [
+        "TODO"
+      ],
+      "timeline": [
+        "TODO"
+      ],
+      "status_text": "TODO",
+      "quick_facts": {
+        "launch_date": "27 September 2007",
+        "landing_date": "No landing — orbited Vesta, then Ceres",
+        "mass": "1,217.7 kg with fuel",
+        "size": "Spacecraft body 1.64 × 1.27 × 1.77 m; solar arrays 19.7 m tip to tip",
+        "power_source": "Solar arrays, 10.3 kW at 1 AU",
+        "designed_lifetime": "TODO",
+        "actual_lifetime": "Orbited Vesta in 2011–2012 and Ceres in 2015–2018",
+        "last_contact": "31 October 2018"
+      },
+      "instruments": [
+        {
+          "name": "Framing camera",
+          "what_it_did": "Took pictures of Vesta and Ceres to map their surfaces."
+        },
+        {
+          "name": "Visible and infrared mapping spectrometer",
+          "what_it_did": "Identified minerals by the light they reflect."
+        },
+        {
+          "name": "Gamma ray and neutron detector",
+          "what_it_did": "Measured elements in the surface and looked for water ice."
+        }
+      ],
+      "key_numbers": [
+        {
+          "label": "Arrived at Vesta",
+          "value": "16 July 2011"
+        },
+        {
+          "label": "Arrived at Ceres",
+          "value": "6 March 2015"
+        },
+        {
+          "label": "Bodies orbited",
+          "value": "2"
+        }
+      ],
+      "did_you_know": [
+        "It was the first spacecraft to orbit two different bodies in the solar system.",
+        "It used ion propulsion, gently pushing itself along with electrically charged particles."
+      ],
+      "mission_context": "Dawn visited Vesta and Ceres, two of the largest objects in the asteroid belt, and orbited each one. By comparing them, scientists learned about the early building blocks of the planets.",
+      "related": [
+        "near_shoemaker"
+      ],
+      "image_file": "assets/images/dawn.jpg",
+      "image_credit": "NASA/JPL",
+      "image_source_url": "https://science.nasa.gov/photojournal/dawn-spacecraft-orbiting-ceres-artists-concept/",
+      "image_alt": "Artist's concept: The Dawn spacecraft, with long solar panels and a blue thruster plume, flies past a large gray asteroid.",
+      "sources": [
+        "https://science.nasa.gov/mission/dawn/",
+        "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=2007-043A"
+      ],
+      "phase": 2,
+      "verified": false
+    },
+    {
+      "id": "near_shoemaker",
+      "name": "NEAR Shoemaker",
+      "destination": "Beyond",
+      "mission": "NEAR Shoemaker",
+      "type": "asteroid lander",
+      "location": "TODO",
+      "lat": null,
+      "lon": null,
+      "coord_source": "TODO",
+      "sites": [],
+      "status": "TODO",
+      "status_detail": "TODO",
+      "status_source": "https://science.nasa.gov/mission/near-shoemaker/",
+      "landing": "TODO",
+      "story": "TODO",
+      "how_it_worked": "TODO",
+      "discoveries": [
+        "TODO"
+      ],
+      "timeline": [
+        "TODO"
+      ],
+      "status_text": "TODO",
+      "quick_facts": {
+        "launch_date": "17 February 1996",
+        "landing_date": "12 February 2001, 19:44 UT (on asteroid Eros)",
+        "mass": "805 kg",
+        "size": "Octagonal body 1.7 m across",
+        "power_source": "Four solar arrays, 1.8 × 1.2 m each, 400 W at 2.2 AU",
+        "designed_lifetime": "About one year in orbit",
+        "actual_lifetime": "Five years",
+        "last_contact": "28 February 2001"
+      },
+      "instruments": [
+        {
+          "name": "Multispectral imager",
+          "what_it_did": "Took pictures of Eros in several colours to map its surface."
+        },
+        {
+          "name": "Near-infrared spectrometer",
+          "what_it_did": "Identified minerals on the asteroid's surface."
+        },
+        {
+          "name": "X-ray/gamma-ray spectrometer",
+          "what_it_did": "Measured the elements that make up Eros."
+        },
+        {
+          "name": "Magnetometer",
+          "what_it_did": "Searched for a magnetic field around the asteroid."
+        },
+        {
+          "name": "Laser rangefinder",
+          "what_it_did": "Measured the distance to the surface to build a shape model."
+        }
+      ],
+      "key_numbers": [
+        {
+          "label": "Images returned",
+          "value": "About 160,000"
+        },
+        {
+          "label": "Surface mapped",
+          "value": "About 70% of Eros"
+        },
+        {
+          "label": "Entered orbit around Eros",
+          "value": "14 February 2000"
+        }
+      ],
+      "did_you_know": [
+        "It was renamed for Eugene Shoemaker, a scientist who studied impact craters, after he died.",
+        "It landed on Eros even though it was never designed to land."
+      ],
+      "mission_context": "NEAR Shoemaker was the first spacecraft to orbit an asteroid and the first to land on one. Its close-up study of Eros showed what these small rocky worlds are made of.",
+      "related": [
+        "dawn"
+      ],
+      "image_file": "assets/images/near_shoemaker.jpg",
+      "image_credit": "NASA",
+      "image_source_url": "https://science.nasa.gov/photojournal/nasas-near-spacecrafts-rendezvous-with-asteroid-eros-artists-concept/",
+      "image_alt": "Artist's concept: The NEAR spacecraft, with its solar panels and dish antenna, hovers close to the rocky asteroid Eros.",
+      "sources": [
+        "https://science.nasa.gov/mission/near-shoemaker/",
+        "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1996-008A"
+      ],
+      "phase": 2,
+      "verified": false
+    },
+    {
+      "id": "pioneer11",
+      "name": "Pioneer 11",
+      "destination": "Beyond",
+      "mission": "Pioneer",
+      "type": "spacecraft",
+      "location": "TODO",
+      "lat": null,
+      "lon": null,
+      "coord_source": "TODO",
+      "sites": [],
+      "status": "TODO",
+      "status_detail": "TODO",
+      "status_source": "https://science.nasa.gov/mission/pioneer-10/",
+      "landing": "TODO",
+      "story": "TODO",
+      "how_it_worked": "TODO",
+      "discoveries": [
+        "TODO"
+      ],
+      "timeline": [
+        "TODO"
+      ],
+      "status_text": "TODO",
+      "quick_facts": {
+        "launch_date": "6 April 1973",
+        "landing_date": "No landing — flyby mission",
+        "mass": "258.5 kg",
+        "size": "2.9 m long with a 2.74 m dish antenna",
+        "power_source": "Two radioisotope thermoelectric generators, 144 W at Jupiter and 100 W at Saturn",
+        "designed_lifetime": "TODO",
+        "actual_lifetime": "22 years",
+        "last_contact": "30 September 1995"
+      },
+      "instruments": [
+        {
+          "name": "Imaging photopolarimeter",
+          "what_it_did": "Took pictures and measured the polarisation of light from Jupiter and Saturn."
+        },
+        {
+          "name": "Magnetometer",
+          "what_it_did": "Measured magnetic fields around the planets and in interplanetary space."
+        },
+        {
+          "name": "Plasma analyser",
+          "what_it_did": "Measured charged particles in the solar wind."
+        },
+        {
+          "name": "Charged particle detector",
+          "what_it_did": "Counted energetic particles in space."
+        },
+        {
+          "name": "Cosmic-ray telescope",
+          "what_it_did": "Studied cosmic rays coming from outside the solar system."
+        }
+      ],
+      "key_numbers": [
+        {
+          "label": "Jupiter flyby",
+          "value": "3 December 1974"
+        },
+        {
+          "label": "Saturn flyby",
+          "value": "1 September 1979"
+        },
+        {
+          "label": "Distance at last contact",
+          "value": "44.1 AU"
+        }
+      ],
+      "did_you_know": [
+        "It was the first spacecraft to fly past Saturn.",
+        "It discovered the F ring around Saturn.",
+        "It crossed the solar system and headed into interstellar space."
+      ],
+      "mission_context": "Pioneer 11 followed Pioneer 10 to Jupiter, then used the planet's gravity to swing on to Saturn. It was the first spacecraft to visit Saturn and showed that the outer planets could be studied up close.",
+      "related": [
+        "pioneer10"
+      ],
+      "image_file": "TODO",
+      "image_credit": "TODO",
+      "image_source_url": "TODO",
+      "image_alt": "TODO",
+      "sources": [
+        "https://science.nasa.gov/mission/pioneer-10/",
+        "https://science.nasa.gov/mission/pioneer-11/",
+        "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1973-019A"
+      ],
+      "phase": 2,
+      "verified": false
+    },
+    {
+      "id": "surveyor7",
+      "name": "Surveyor 7",
+      "destination": "Moon",
+      "mission": "Surveyor",
+      "type": "lander",
+      "location": "TODO",
+      "lat": null,
+      "lon": null,
+      "coord_source": "TODO",
+      "sites": [
+        {
+          "label": "TODO",
+          "lat": null,
+          "lon": null,
+          "coord_system": "TODO",
+          "coord_source": "TODO"
+        }
+      ],
+      "status": "TODO",
+      "status_detail": "TODO",
+      "status_source": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1968-001A",
+      "landing": "TODO",
+      "story": "TODO",
+      "how_it_worked": "TODO",
+      "discoveries": [
+        "TODO"
+      ],
+      "timeline": [
+        "TODO"
+      ],
+      "status_text": "TODO",
+      "quick_facts": {
+        "launch_date": "TODO",
+        "landing_date": "TODO",
+        "mass": "TODO",
+        "size": "TODO",
+        "power_source": "TODO",
+        "designed_lifetime": "TODO",
+        "actual_lifetime": "TODO",
+        "last_contact": "TODO"
+      },
+      "instruments": [],
+      "key_numbers": [],
+      "did_you_know": [],
+      "mission_context": "TODO",
+      "related": [],
+      "image_file": "assets/images/surveyor7.jpg",
+      "image_credit": "NASA",
+      "image_source_url": "https://science.nasa.gov/mission/surveyor-7/",
+      "image_alt": "A Surveyor lander spacecraft stands in a test facility, its white dish antenna and instrument boxes mounted above three landing legs.",
+      "sources": [
+        "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1968-001A"
+      ],
+      "phase": 1,
+      "verified": false
+    },
+    {
+      "id": "curiosity_descent_stage",
+      "name": "Curiosity descent stage",
+      "destination": "Mars",
+      "mission": "Mars Science Laboratory",
+      "not_to_confuse_with": "Curiosity rover (separate machine)",
+      "type": "descent stage",
+      "location": "TODO",
+      "lat": null,
+      "lon": null,
+      "coord_source": "TODO",
+      "sites": [
+        {
+          "label": "TODO",
+          "lat": null,
+          "lon": null,
+          "coord_system": "TODO",
+          "coord_source": "TODO"
+        }
+      ],
+      "status": "TODO",
+      "status_detail": "TODO",
+      "status_source": "TODO",
+      "landing": "TODO",
+      "story": "TODO",
+      "how_it_worked": "TODO",
+      "discoveries": [
+        "TODO"
+      ],
+      "timeline": [
+        "TODO"
+      ],
+      "status_text": "TODO",
+      "quick_facts": {
+        "launch_date": "TODO",
+        "landing_date": "TODO",
+        "mass": "TODO",
+        "size": "TODO",
+        "power_source": "TODO",
+        "designed_lifetime": "TODO",
+        "actual_lifetime": "TODO",
+        "last_contact": "TODO"
+      },
+      "instruments": [],
+      "key_numbers": [],
+      "did_you_know": [],
+      "mission_context": "TODO",
+      "related": [],
+      "image_file": "assets/images/curiosity_descent_stage.jpg",
+      "image_credit": "NASA/JPL-Caltech",
+      "image_source_url": "https://science.nasa.gov/resource/curiositys-sky-crane-maneuver-artists-concept/",
+      "image_alt": "Artist's concept: Curiosity's descent stage fires its rocket engines as it lowers the rover toward the Martian surface on tethers during the sky crane maneuver.",
+      "sources": [
+        "TODO"
+      ],
+      "phase": 1,
+      "verified": false
+    }
+  ]
+}

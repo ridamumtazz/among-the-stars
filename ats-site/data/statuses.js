@@ -1,0 +1,69 @@
+// Generated from data/statuses.json by tools/sync-data.js — do not edit by hand.
+window.STATUSES_MIRROR = {
+  "statuses": [
+    {
+      "id": "still_operational",
+      "label": "Still Operational",
+      "category": "Still working",
+      "definition": "The machine is still working and sending information back to Earth.",
+      "colour": "#3FA66B",
+      "icon": "pulse"
+    },
+    {
+      "id": "mission_completed",
+      "label": "Mission Completed",
+      "category": "No longer operating",
+      "definition": "The machine finished the job it was sent to do.",
+      "colour": "#5B8DB8",
+      "icon": "check"
+    },
+    {
+      "id": "lost_contact",
+      "label": "Lost Contact",
+      "category": "No longer operating",
+      "definition": "The machine stopped responding, so we can no longer hear from it.",
+      "colour": "#D9A441",
+      "icon": "signal-off"
+    },
+    {
+      "id": "stopped_working",
+      "label": "Stopped Working",
+      "category": "No longer operating",
+      "definition": "The machine broke or ran out of power and can no longer do its job.",
+      "colour": "#C86B3C",
+      "icon": "power"
+    },
+    {
+      "id": "crashed_on_landing",
+      "label": "Crashed on Landing",
+      "category": "Crashed or deliberately impacted",
+      "definition": "The machine hit the ground too hard while trying to land and was damaged.",
+      "colour": "#C4474D",
+      "icon": "crash"
+    },
+    {
+      "id": "intentionally_left_behind",
+      "label": "Intentionally Left Behind",
+      "category": "Deliberately left behind",
+      "definition": "The machine was left in place on purpose after it finished its job.",
+      "colour": "#7A8699",
+      "icon": "box"
+    },
+    {
+      "id": "destroyed_or_burned_up",
+      "label": "Destroyed or Burned Up",
+      "category": "Crashed or deliberately impacted",
+      "definition": "The machine was destroyed, often by burning up in intense heat.",
+      "colour": "#9A4F7A",
+      "icon": "flame"
+    },
+    {
+      "id": "deliberate_impact",
+      "label": "Deliberate Impact",
+      "category": "Crashed or deliberately impacted",
+      "definition": "The machine was guided to crash into a surface on purpose, often to study the impact.",
+      "colour": "#A5584A",
+      "icon": "target"
+    }
+  ]
+};

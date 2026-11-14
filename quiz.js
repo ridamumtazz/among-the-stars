@@ -1,265 +1,261 @@
-/* Among the Stars — quiz (Stage 4).
-   One question at a time with instant feedback, a link to the related exhibit
-   (on its globe or Beyond page), a final score and Try again. Questions and
-   explanations come only from data/quiz.json. Answer options are shuffled for
-   display; the stored answer is still the original option index, so scoring
-   keeps using correctIndex. A question whose artifact is not yet visible links
-   to its NASA source instead of a story page. */
-(function () {
-  "use strict";
-
-  var D = window.ArtifactData;
-  var E = window.Exhibit;
-  var S = window.StatusData;
-
-  var state = { questions: [], artifacts: [], i: 0, answers: [], orders: [], phase: "question" };
-  var firstRender = true;
-  var el = {};
-
-  function esc(s) {
-    return String(s).replace(/[&<>"']/g, function (c) {
-      return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c];
-    });
-  }
-  function letter(i) { return String.fromCharCode(65 + i); }
-  function artifactFor(q) {
-    for (var i = 0; i < state.artifacts.length; i++) {
-      if (state.artifacts[i].id === q.artifact_id) return state.artifacts[i];
+// Generated from data/quiz.json by tools/sync-data.js — do not edit by hand.
+window.QUIZ_MIRROR = {
+  "questions": [
+    {
+      "id": "q01",
+      "artifact_id": "apollo11_descent",
+      "difficulty": "easy",
+      "question": "What was the job of the Apollo lunar module's descent stage after the astronauts finished on the Moon?",
+      "options": [
+        "It was a launch pad for the ascent stage",
+        "It became a radio tower",
+        "It carried the astronauts home",
+        "It was sent back to Earth"
+      ],
+      "correctIndex": 0,
+      "explanation": "The descent stages were left behind on the Moon as launch pads.",
+      "source_url": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1969-059C",
+      "verified": true
+    },
+    {
+      "id": "q02",
+      "artifact_id": "lunar_roving_vehicle",
+      "difficulty": "easy",
+      "question": "How many Lunar Roving Vehicles, or moon buggies, were left on the Moon?",
+      "options": [
+        "One",
+        "Two",
+        "Three",
+        "Five"
+      ],
+      "correctIndex": 2,
+      "explanation": "Three electric moon buggies were driven by astronauts and parked permanently on the Moon.",
+      "source_url": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1971-063C",
+      "verified": true
+    },
+    {
+      "id": "q03",
+      "artifact_id": "lunar_roving_vehicle",
+      "difficulty": "easy",
+      "question": "Who drove the Lunar Roving Vehicles?",
+      "options": [
+        "Robots controlled from Earth",
+        "Astronauts",
+        "Engineers in orbit",
+        "Nobody, they were towed"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Lunar Roving Vehicles were electric buggies driven by astronauts.",
+      "source_url": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1971-063C",
+      "verified": true
+    },
+    {
+      "id": "q04",
+      "artifact_id": "alsep",
+      "difficulty": "medium",
+      "question": "What was ALSEP left on the Moon to do?",
+      "options": [
+        "Carry astronauts around",
+        "Do science after the astronauts left",
+        "Mark the landing site only",
+        "Send people back to Earth"
+      ],
+      "correctIndex": 1,
+      "explanation": "ALSEP, the Apollo Lunar Surface Experiments Package, included seismometers and retroreflectors and kept doing science after the astronauts departed.",
+      "source_url": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1969-099C",
+      "verified": true
+    },
+    {
+      "id": "q05",
+      "artifact_id": "surveyor3",
+      "difficulty": "medium",
+      "question": "Why did NASA send the Surveyor landers to the Moon in the 1960s?",
+      "options": [
+        "To bring back Moon rocks",
+        "To prove that soft landings were possible",
+        "To carry astronauts",
+        "To search for life on Mars"
+      ],
+      "correctIndex": 1,
+      "explanation": "Surveyor was a series of robotic probes sent to show that a spacecraft could land softly on the Moon.",
+      "source_url": "https://science.nasa.gov/mission/surveyor-3/",
+      "verified": true
+    },
+    {
+      "id": "q06",
+      "artifact_id": "sojourner",
+      "difficulty": "easy",
+      "question": "Which rover was the first rover on Mars?",
+      "options": [
+        "Opportunity",
+        "Spirit",
+        "Sojourner",
+        "Ingenuity"
+      ],
+      "correctIndex": 2,
+      "explanation": "Sojourner, delivered to Mars by the Pathfinder lander in 1997, was the first rover on Mars.",
+      "source_url": "https://science.nasa.gov/mission/mars-pathfinder/",
+      "verified": true
+    },
+    {
+      "id": "q07",
+      "artifact_id": "sojourner",
+      "difficulty": "easy",
+      "question": "What delivered the Sojourner rover to Mars?",
+      "options": [
+        "The Pathfinder lander",
+        "A helicopter",
+        "The Viking orbiter",
+        "An astronaut"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sojourner was delivered by the Pathfinder lander.",
+      "source_url": "https://science.nasa.gov/mission/mars-pathfinder/",
+      "verified": true
+    },
+    {
+      "id": "q08",
+      "artifact_id": "opportunity",
+      "difficulty": "easy",
+      "question": "How are the Spirit and Opportunity rovers related?",
+      "options": [
+        "They were twin rovers",
+        "One carried the other",
+        "One was a helicopter",
+        "They were built for the Moon"
+      ],
+      "correctIndex": 0,
+      "explanation": "Spirit and Opportunity were twin rovers that operated on Mars for years and are now inactive.",
+      "source_url": "https://science.nasa.gov/mission/mars-exploration-rovers-spirit-and-opportunity/",
+      "verified": true
+    },
+    {
+      "id": "q09",
+      "artifact_id": "viking1",
+      "difficulty": "medium",
+      "question": "What was special about the Viking 1 and 2 landers in 1976?",
+      "options": [
+        "They were the first helicopters on Mars",
+        "They were the first U.S. landers to successfully operate on Mars",
+        "They brought samples to Earth",
+        "They landed on an asteroid"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Viking landers were the first U.S. landers to operate successfully on Mars, and they remain where they touched down.",
+      "source_url": "https://science.nasa.gov/mission/viking-1/",
+      "verified": true
+    },
+    {
+      "id": "q10",
+      "artifact_id": "phoenix",
+      "difficulty": "medium",
+      "question": "Which Mars lander dug for water ice?",
+      "options": [
+        "InSight",
+        "Sojourner",
+        "Phoenix",
+        "Ingenuity"
+      ],
+      "correctIndex": 2,
+      "explanation": "Phoenix dug for water ice, and it eventually lost power.",
+      "source_url": "https://science.nasa.gov/mission/insight/",
+      "verified": true
+    },
+    {
+      "id": "q11",
+      "artifact_id": "insight",
+      "difficulty": "medium",
+      "question": "What did the InSight lander listen for on Mars?",
+      "options": [
+        "Radio signals from Earth",
+        "Marsquakes",
+        "Alien voices",
+        "Wind chimes"
+      ],
+      "correctIndex": 1,
+      "explanation": "InSight listened for marsquakes, and it eventually lost power.",
+      "source_url": "https://science.nasa.gov/mission/insight/",
+      "verified": true
+    },
+    {
+      "id": "q12",
+      "artifact_id": "dawn",
+      "difficulty": "medium",
+      "question": "Where does the Dawn spacecraft remain today?",
+      "options": [
+        "On the Moon",
+        "On Mars",
+        "In an unpowered orbit around Ceres",
+        "On the surface of Eros"
+      ],
+      "correctIndex": 2,
+      "explanation": "Dawn mapped Vesta and Ceres, then ran out of fuel and remains in a perpetual, unpowered orbit around Ceres.",
+      "source_url": "https://science.nasa.gov/mission/dawn/",
+      "verified": true
+    },
+    {
+      "id": "q13",
+      "artifact_id": "near_shoemaker",
+      "difficulty": "medium",
+      "question": "Where is NEAR Shoemaker resting now?",
+      "options": [
+        "On the surface of 433 Eros",
+        "In orbit around Ceres",
+        "On Mars",
+        "On the Moon"
+      ],
+      "correctIndex": 0,
+      "explanation": "NEAR Shoemaker was the first spacecraft to orbit and land on an asteroid, and it was left resting on 433 Eros.",
+      "source_url": "https://science.nasa.gov/mission/near-shoemaker/",
+      "verified": true
+    },
+    {
+      "id": "q14",
+      "artifact_id": "pioneer10",
+      "difficulty": "easy",
+      "question": "What are Pioneer 10 and 11 doing today?",
+      "options": [
+        "Orbiting Mars",
+        "Parked on the Moon",
+        "Drifting silently out of the solar system",
+        "Falling toward the Sun"
+      ],
+      "correctIndex": 2,
+      "explanation": "These early deep-space probes explored the outer planets and are now drifting out of the solar system.",
+      "source_url": "https://science.nasa.gov/mission/pioneer-10/",
+      "verified": true
+    },
+    {
+      "id": "q15",
+      "artifact_id": "ingenuity",
+      "difficulty": "easy",
+      "question": "What was special about the Ingenuity helicopter?",
+      "options": [
+        "It was the first aircraft on another planet",
+        "It was the first rover on Mars",
+        "It was the first Moon buggy",
+        "It was the first telescope in space"
+      ],
+      "correctIndex": 0,
+      "explanation": "Ingenuity was the first aircraft on another planet. After rotor damage it became a stationary artifact.",
+      "source_url": "https://science.nasa.gov/mission/mars-2020-perseverance/ingenuity-mars-helicopter/",
+      "verified": true
+    },
+    {
+      "id": "q16",
+      "artifact_id": "kepler",
+      "difficulty": "medium",
+      "question": "What was the Kepler Space Telescope built to hunt for?",
+      "options": [
+        "Moon rocks",
+        "Marsquakes",
+        "Exoplanets",
+        "Water ice on Mars"
+      ],
+      "correctIndex": 2,
+      "explanation": "Kepler was an exoplanet-hunting telescope. It ran out of fuel and now drifts in an Earth-trailing orbit.",
+      "source_url": "https://science.nasa.gov/mission/kepler/",
+      "verified": true
     }
-    return null;
-  }
-  function answeredCount() {
-    return state.answers.filter(function (v) { return typeof v === "number"; }).length;
-  }
-  function score() {
-    return state.questions.reduce(function (n, q, i) {
-      return n + (state.answers[i] === q.correctIndex ? 1 : 0);
-    }, 0);
-  }
-
-  var CHECK = '<svg class="opt-mark" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6L9 17l-5-5"/></svg>';
-  var CROSS = '<svg class="opt-mark" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>';
-
-  /* ---------- Option order ----------
-     A fresh Fisher–Yates order per question and per attempt. The order holds
-     original option indices, so correctIndex and the stored answers keep
-     pointing at the same data. */
-  function shuffleInto(arr) {
-    for (var i = arr.length - 1; i > 0; i--) {
-      var j = Math.floor(Math.random() * (i + 1));
-      var t = arr[i]; arr[i] = arr[j]; arr[j] = t;
-    }
-    return arr;
-  }
-  function orderFor(qi) {
-    if (!state.orders[qi]) {
-      state.orders[qi] = shuffleInto(state.questions[qi].options.map(function (_, k) { return k; }));
-    }
-    return state.orders[qi];
-  }
-
-  /* ---------- Links ----------
-     "See the full story" only for artifacts that are currently visible
-     (state.artifacts comes from the published collection). Hidden artifacts,
-     and every question anyway, carry the small source link. */
-  function storyLink(a) {
-    if (!a) return "";
-    var page = a.destination === "Beyond" ? "beyond.html" : "globe.html";
-    var href = page + "#artifact=" + encodeURIComponent(a.id);
-    return '<a class="quiz-exhibit-link" href="' + esc(href) + '"' +
-      ' style="--dot-color:' + E.typeColor(a.type) + '">' +
-      '<span class="a-dot" aria-hidden="true"></span>See the full story: ' + esc(a.name) + "</a>";
-  }
-  function sourceLink(q, cls) {
-    var url = typeof q.source_url === "string" ? q.source_url.trim() : "";
-    if (!/^https?:\/\//i.test(url)) return "";
-    return '<small class="' + (cls || "quiz-source") + '">' +
-      '<a href="' + esc(url) + '" target="_blank" rel="noopener noreferrer">Source</a></small>';
-  }
-
-  /* ---------- Progress ---------- */
-  function updateProgress() {
-    var n = state.questions.length;
-    var done = answeredCount();
-    el.track.setAttribute("aria-valuemax", String(n));
-    el.track.setAttribute("aria-valuenow", String(state.phase === "results" ? n : done));
-    el.track.innerHTML = state.questions.map(function (q, i) {
-      var cls = "seg";
-      if (typeof state.answers[i] === "number") cls += " done";
-      else if (i === state.i && state.phase === "question") cls += " current";
-      return '<span class="' + cls + '"></span>';
-    }).join("");
-    el.progress.textContent = state.phase === "results"
-      ? "Quiz complete · score " + score() + " of " + n
-      : "Question " + (state.i + 1) + " of " + n;
-    el.restart.hidden = state.phase === "results";
-  }
-
-  /* ---------- Question ---------- */
-  function showQuestion() {
-    state.phase = "question";
-    var q = state.questions[state.i];
-    el.stage.innerHTML =
-      '<article class="quiz-card rise">' +
-        '<p class="quiz-kicker">Question ' + (state.i + 1) + " of " + state.questions.length + "</p>" +
-        '<h2 id="quiz-q" tabindex="-1">' + esc(q.question) + "</h2>" +
-        '<div class="quiz-options" role="group" aria-label="Answer choices">' +
-          orderFor(state.i).map(function (orig, d) {
-            return '<button type="button" class="quiz-option" data-index="' + orig + '">' +
-              '<span class="opt-letter" aria-hidden="true">' + letter(d) + "</span>" +
-              '<span class="opt-text">' + esc(q.options[orig]) + "</span></button>";
-          }).join("") +
-        "</div>" +
-      "</article>";
-    el.stage.querySelectorAll(".quiz-option").forEach(function (btn) {
-      btn.addEventListener("click", function () {
-        state.answers[state.i] = Number(btn.getAttribute("data-index"));
-        showFeedback();
-      });
-    });
-    updateProgress();
-    if (!firstRender) document.getElementById("quiz-q").focus();
-    firstRender = false;
-  }
-
-  /* ---------- Feedback ---------- */
-  function showFeedback() {
-    state.phase = "feedback";
-    var q = state.questions[state.i];
-    var chosen = state.answers[state.i];
-    var ok = chosen === q.correctIndex;
-    var a = artifactFor(q);
-    var last = state.i === state.questions.length - 1;
-
-    el.stage.innerHTML =
-      '<article class="quiz-card">' +
-        '<p class="quiz-kicker">Question ' + (state.i + 1) + " of " + state.questions.length + "</p>" +
-        '<h2 tabindex="-1">' + esc(q.question) + "</h2>" +
-        '<div class="quiz-options" role="group" aria-label="Answer choices">' +
-          orderFor(state.i).map(function (orig, d) {
-            var cls = "quiz-option";
-            var mark = "";
-            var sr = "";
-            if (orig === q.correctIndex) { cls += " is-correct"; mark = CHECK; sr = ' <span class="sr-only">(correct answer)</span>'; }
-            else if (orig === chosen) { cls += " is-wrong"; mark = CROSS; sr = ' <span class="sr-only">(your answer)</span>'; }
-            else { cls += " is-dim"; }
-            return '<button type="button" class="' + cls + '" disabled>' +
-              '<span class="opt-letter" aria-hidden="true">' + letter(d) + "</span>" +
-              '<span class="opt-text">' + esc(q.options[orig]) + sr + "</span>" + mark + "</button>";
-          }).join("") +
-        "</div>" +
-        '<div class="quiz-feedback ' + (ok ? "ok" : "no") + '" id="quiz-feedback" tabindex="-1" role="status">' +
-          '<p class="fb-verdict">' + (ok ? CHECK : CROSS) + (ok ? "Correct" : "Not quite") + "</p>" +
-          '<p class="fb-explain">' + esc(D.display(q.explanation)) + "</p>" +
-          '<p class="fb-source">' + sourceLink(q) + "</p>" +
-          '<div class="fb-actions">' + storyLink(a) +
-            '<button type="button" class="btn quiz-next" id="quiz-next">' +
-              (last ? "See my score" : "Next question") + "</button>" +
-          "</div>" +
-        "</div>" +
-      "</article>";
-    document.getElementById("quiz-next").addEventListener("click", function () {
-      if (last) showResults();
-      else { state.i += 1; showQuestion(); }
-    });
-    updateProgress();
-    document.getElementById("quiz-feedback").focus();
-  }
-
-  /* ---------- Results ---------- */
-  function showResults() {
-    state.phase = "results";
-    var n = state.questions.length;
-    var s = score();
-    var pct = Math.round((s / n) * 100);
-    var title = s === n ? "Perfect transmission!"
-      : pct >= 75 ? "Strong signal!"
-      : pct >= 50 ? "Good work — keep exploring."
-      : "Every mission starts somewhere.";
-
-    el.stage.innerHTML =
-      '<article class="quiz-card quiz-results rise">' +
-        '<p class="quiz-kicker">Quiz complete</p>' +
-        '<div class="score-dial" style="--pct:' + pct + '" role="img" aria-label="Score: ' + s + " out of " + n + '">' +
-          "<span>" + s + '<span class="score-of">/ ' + n + "</span></span></div>" +
-        '<h2 id="quiz-result-title" tabindex="-1">' + esc(title) + "</h2>" +
-        '<p class="quiz-result-sub">You answered ' + s + " of " + n + " correctly. " +
-          "Each question links to its exhibit when it is on the site, or to its NASA source.</p>" +
-        '<ol class="quiz-review">' +
-          state.questions.map(function (q, i) {
-            var ok = state.answers[i] === q.correctIndex;
-            var a = artifactFor(q);
-            return "<li>" +
-              '<svg class="rev-mark ' + (ok ? "ok" : "no") + '" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">' +
-                (ok ? '<path d="M20 6L9 17l-5-5"/>' : '<path d="M6 6l12 12M18 6L6 18"/>') + "</svg>" +
-              "<div>" +
-                '<p class="rev-q">' + esc(q.question) + "</p>" +
-                '<p class="rev-a">' + (ok
-                  ? "Your answer: <strong>" + esc(q.options[state.answers[i]]) + "</strong>"
-                  : "Your answer: <strong>" + esc(q.options[state.answers[i]]) + "</strong> · Correct answer: <strong>" + esc(q.options[q.correctIndex]) + "</strong>") + "</p>" +
-                '<div class="rev-links">' + storyLink(a) + sourceLink(q, "review-source") + "</div>" +
-              "</div></li>";
-          }).join("") +
-        "</ol>" +
-        '<div class="quiz-result-actions">' +
-          '<button type="button" class="btn" id="quiz-again">Try again</button>' +
-          '<a class="btn ghost" href="globe.html">Explore the globe</a>' +
-          '<a class="btn ghost" href="beyond.html">Go Beyond</a>' +
-        "</div>" +
-      "</article>";
-
-    document.getElementById("quiz-again").addEventListener("click", restart);
-    updateProgress();
-    document.getElementById("quiz-result-title").focus();
-  }
-
-  function restart() {
-    state.i = 0;
-    state.answers = [];
-    state.orders = [];
-    showQuestion();
-  }
-
-  /* ---------- Boot ---------- */
-  function validQuestion(q) {
-    return q && typeof q.question === "string" && q.question !== "" &&
-      Array.isArray(q.options) && q.options.length >= 2 &&
-      typeof q.correctIndex === "number" && q.correctIndex >= 0 && q.correctIndex < q.options.length;
-  }
-
-  function showError(err) {
-    console.error("Quiz data failed to load:", err);
-    var msg = (err && err.message) ? err.message : "We could not load the quiz just now.";
-    el.progress.textContent = "Quiz unavailable";
-    el.stage.innerHTML = D.errorBlock(msg);
-    var retry = el.stage.querySelector(".data-retry");
-    if (retry) retry.addEventListener("click", loadData);
-  }
-
-  function loadData() {
-    return Promise.all([D.load(), D.loadQuiz(), S.load()]).then(function (results) {
-      state.artifacts = results[0];
-      state.questions = results[1].filter(validQuestion);
-      state.orders = [];
-      if (state.questions.length === 0) {
-        el.progress.textContent = "Quiz coming soon.";
-        el.stage.innerHTML = '<p class="quiz-error">Quiz coming soon.</p>';
-        return;
-      }
-      el.restart.hidden = false;
-      showQuestion();
-    }).catch(showError);
-  }
-
-  function boot() {
-    el.stage = document.getElementById("quiz-stage");
-    el.progress = document.getElementById("quiz-progress");
-    el.track = document.getElementById("quiz-track");
-    el.restart = document.getElementById("quiz-restart");
-    el.restart.addEventListener("click", restart);
-    loadData();
-  }
-
-  if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", boot);
-  else boot();
-})();
+  ]
+};

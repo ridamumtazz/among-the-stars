@@ -1,0 +1,196 @@
+/* Among the Stars — Beyond the Moon and Mars (Stage 3)
+   Aerospace console: hairline grid, squared cards, cyan accents.
+   Page behaviour lives in js/beyond.js and is untouched here. */
+
+/* ---------- Hero ---------- */
+.beyond-hero {
+  position: relative;
+  padding: 88px 0 40px;
+}
+.beyond-hero h1 {
+  margin-bottom: 18px;
+  color: var(--text);
+}
+.beyond-hero h1 .amp { color: var(--text-muted); }
+.beyond-hero .lede { margin: 0 0 28px; }
+.beyond-hero-actions { display: flex; flex-wrap: wrap; justify-content: flex-start; gap: 10px; }
+.beyond-hero .btn.ghost { border-color: var(--accent-line); color: var(--accent); }
+.beyond-hero .btn.ghost:hover { background: var(--accent-soft); color: var(--accent); border-color: var(--accent); }
+
+/* ---------- Fleet filter bar ---------- */
+.fleet-filterbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px 18px;
+  margin-top: 26px;
+  padding: 14px 16px;
+  background: var(--surface);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+}
+.fleet-filterbar .status-filters { flex: 1 1 320px; }
+.fleet-filterbar .filter-count { flex: none; }
+
+/* ---------- Fleet cards ---------- */
+.fleet-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 22px;
+  margin-top: 30px;
+}
+.fleet-group {
+  font-family: var(--font-heading);
+  padding-top: 10px;
+  border-top: 1px solid var(--line);
+}
+.fleet-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 26px;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  color: var(--text);
+  font-family: inherit;
+  text-align: left;
+  cursor: pointer;
+  transition: background 0.25s ease;
+}
+.fleet-card:hover, .fleet-card:focus-visible { background: rgba(10, 18, 32, 0.9); }
+.fleet-card:hover::before,
+.fleet-card:hover::after,
+.fleet-card:focus-visible::before,
+.fleet-card:focus-visible::after {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-color: var(--accent);
+  border-style: solid;
+  pointer-events: none;
+}
+.fleet-card:hover::before,
+.fleet-card:focus-visible::before { top: -1px; left: -1px; border-width: 1px 0 0 1px; }
+.fleet-card:hover::after,
+.fleet-card:focus-visible::after { bottom: -1px; right: -1px; border-width: 0 1px 1px 0; }
+
+.fc-top { display: flex; align-items: center; gap: 10px; }
+.fc-top .a-dot {
+  width: 12px; height: 12px; border-radius: 50%;
+  background: var(--dot-color, var(--beyond));
+}
+.fc-type {
+  font-family: var(--font-heading);
+  font-size: 8.5px;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+}
+.fleet-card h3 { margin: 0; font-size: 13px; letter-spacing: 0.07em; line-height: 1.35; }
+.fc-meta { display: flex; flex-direction: column; gap: 4px; margin: 0; font-size: 15px; color: var(--text-muted); }
+.fc-meta strong { color: var(--text); font-weight: 600; }
+.fc-summary { margin: 0; color: var(--text-muted); font-size: 16px; }
+.fc-cta {
+  margin-top: auto;
+  padding-top: 6px;
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  color: var(--accent);
+  font-family: var(--font-heading);
+  font-weight: 600;
+  font-size: 9px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+.fleet-card:hover .fc-cta { color: var(--accent-strong); }
+
+.fleet-empty {
+  grid-column: 1 / -1;
+  padding: 40px;
+  text-align: center;
+  color: var(--text-muted);
+  border: 1px solid var(--line);
+  background: var(--bg-deep);
+}
+
+/* ---------- Distance + signal panels ---------- */
+#distance-panels { display: flex; flex-direction: column; gap: 22px; margin-top: 30px; }
+.dist-panel {
+  background: var(--surface);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 30px 32px;
+}
+.dist-panel-head { display: flex; align-items: center; gap: 12px; margin-bottom: 20px; }
+.dist-panel-head .a-dot {
+  width: 12px; height: 12px; border-radius: 50%;
+  background: var(--dot-color, var(--beyond));
+}
+.dist-panel-head h3 { margin: 0; font-size: 13px; letter-spacing: 0.08em; }
+
+.dist-label {
+  font-family: var(--font-heading);
+  font-size: 9px;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  margin: 0 0 12px;
+}
+.dist-diagram { width: 100%; height: auto; display: block; }
+.dist-diagram .d-line { stroke: rgba(255, 255, 255, 0.22); stroke-width: 1; stroke-dasharray: 6 6; }
+.dist-diagram .d-earth { fill: var(--info); }
+.dist-diagram .d-earth-glow { fill: rgba(108, 184, 255, 0.16); }
+.dist-diagram .d-craft { fill: var(--beyond); }
+.dist-diagram .d-craft-glow { fill: rgba(126, 156, 201, 0.16); }
+.dist-diagram .d-value {
+  fill: var(--text);
+  font-size: 20px;
+  font-weight: 700;
+  font-family: var(--font-heading);
+  letter-spacing: 0.04em;
+}
+.dist-diagram .d-asof { fill: var(--text-muted); font-size: 12px; font-family: var(--font-body); }
+.dist-diagram .d-name { fill: var(--text-muted); font-size: 12.5px; font-weight: 500; font-family: var(--font-heading); letter-spacing: 0.1em; }
+
+.dist-placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  padding: 34px 24px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-sm);
+  background: rgba(126, 156, 201, 0.06);
+  color: var(--text-muted);
+  font-size: 16px;
+  font-weight: 500;
+}
+.dist-placeholder svg { width: 20px; height: 20px; flex: none; color: var(--beyond); }
+
+.signal-block {
+  margin-top: 24px;
+  padding: 18px 20px;
+  border-left: 1px solid var(--accent);
+  border-radius: 0;
+  background: var(--surface-2);
+}
+.signal-block h4 { margin: 0 0 8px; font-size: 9.5px; letter-spacing: 0.12em; color: var(--text); }
+.signal-block p { margin: 0; color: var(--text-muted); font-size: 16px; }
+
+/* ---------- Responsive ---------- */
+@media (max-width: 760px) {
+  .beyond-hero { padding: 60px 0 28px; }
+  .fleet-grid { grid-template-columns: 1fr; }
+  .dist-panel { padding: 24px 20px; }
+  .dist-diagram .d-value { font-size: 24px; }
+}

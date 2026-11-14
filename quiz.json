@@ -1,0 +1,148 @@
+{
+  "questions": [
+    {
+      "id": "q01", "artifact_id": "apollo11_descent", "difficulty": "easy",
+      "question": "What was the job of the Apollo lunar module's descent stage after the astronauts finished on the Moon?",
+      "options": ["It was a launch pad for the ascent stage", "It became a radio tower", "It carried the astronauts home", "It was sent back to Earth"],
+      "correctIndex": 0,
+      "explanation": "The descent stages were left behind on the Moon as launch pads.",
+      "source_url": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1969-059C",
+      "verified": true
+    },
+    {
+      "id": "q02", "artifact_id": "lunar_roving_vehicle", "difficulty": "easy",
+      "question": "How many Lunar Roving Vehicles, or moon buggies, were left on the Moon?",
+      "options": ["One", "Two", "Three", "Five"],
+      "correctIndex": 2,
+      "explanation": "Three electric moon buggies were driven by astronauts and parked permanently on the Moon.",
+      "source_url": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1971-063C",
+      "verified": true
+    },
+    {
+      "id": "q03", "artifact_id": "lunar_roving_vehicle", "difficulty": "easy",
+      "question": "Who drove the Lunar Roving Vehicles?",
+      "options": ["Robots controlled from Earth", "Astronauts", "Engineers in orbit", "Nobody, they were towed"],
+      "correctIndex": 1,
+      "explanation": "The Lunar Roving Vehicles were electric buggies driven by astronauts.",
+      "source_url": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1971-063C",
+      "verified": true
+    },
+    {
+      "id": "q04", "artifact_id": "alsep", "difficulty": "medium",
+      "question": "What was ALSEP left on the Moon to do?",
+      "options": ["Carry astronauts around", "Do science after the astronauts left", "Mark the landing site only", "Send people back to Earth"],
+      "correctIndex": 1,
+      "explanation": "ALSEP, the Apollo Lunar Surface Experiments Package, included seismometers and retroreflectors and kept doing science after the astronauts departed.",
+      "source_url": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1969-099C",
+      "verified": true
+    },
+    {
+      "id": "q05", "artifact_id": "surveyor3", "difficulty": "medium",
+      "question": "Why did NASA send the Surveyor landers to the Moon in the 1960s?",
+      "options": ["To bring back Moon rocks", "To prove that soft landings were possible", "To carry astronauts", "To search for life on Mars"],
+      "correctIndex": 1,
+      "explanation": "Surveyor was a series of robotic probes sent to show that a spacecraft could land softly on the Moon.",
+      "source_url": "https://science.nasa.gov/mission/surveyor-3/",
+      "verified": true
+    },
+    {
+      "id": "q06", "artifact_id": "sojourner", "difficulty": "easy",
+      "question": "Which rover was the first rover on Mars?",
+      "options": ["Opportunity", "Spirit", "Sojourner", "Ingenuity"],
+      "correctIndex": 2,
+      "explanation": "Sojourner, delivered to Mars by the Pathfinder lander in 1997, was the first rover on Mars.",
+      "source_url": "https://science.nasa.gov/mission/mars-pathfinder/",
+      "verified": true
+    },
+    {
+      "id": "q07", "artifact_id": "sojourner", "difficulty": "easy",
+      "question": "What delivered the Sojourner rover to Mars?",
+      "options": ["The Pathfinder lander", "A helicopter", "The Viking orbiter", "An astronaut"],
+      "correctIndex": 0,
+      "explanation": "Sojourner was delivered by the Pathfinder lander.",
+      "source_url": "https://science.nasa.gov/mission/mars-pathfinder/",
+      "verified": true
+    },
+    {
+      "id": "q08", "artifact_id": "opportunity", "difficulty": "easy",
+      "question": "How are the Spirit and Opportunity rovers related?",
+      "options": ["They were twin rovers", "One carried the other", "One was a helicopter", "They were built for the Moon"],
+      "correctIndex": 0,
+      "explanation": "Spirit and Opportunity were twin rovers that operated on Mars for years and are now inactive.",
+      "source_url": "https://science.nasa.gov/mission/mars-exploration-rovers-spirit-and-opportunity/",
+      "verified": true
+    },
+    {
+      "id": "q09", "artifact_id": "viking1", "difficulty": "medium",
+      "question": "What was special about the Viking 1 and 2 landers in 1976?",
+      "options": ["They were the first helicopters on Mars", "They were the first U.S. landers to successfully operate on Mars", "They brought samples to Earth", "They landed on an asteroid"],
+      "correctIndex": 1,
+      "explanation": "The Viking landers were the first U.S. landers to operate successfully on Mars, and they remain where they touched down.",
+      "source_url": "https://science.nasa.gov/mission/viking-1/",
+      "verified": true
+    },
+    {
+      "id": "q10", "artifact_id": "phoenix", "difficulty": "medium",
+      "question": "Which Mars lander dug for water ice?",
+      "options": ["InSight", "Sojourner", "Phoenix", "Ingenuity"],
+      "correctIndex": 2,
+      "explanation": "Phoenix dug for water ice, and it eventually lost power.",
+      "source_url": "https://science.nasa.gov/mission/insight/",
+      "verified": true
+    },
+    {
+      "id": "q11", "artifact_id": "insight", "difficulty": "medium",
+      "question": "What did the InSight lander listen for on Mars?",
+      "options": ["Radio signals from Earth", "Marsquakes", "Alien voices", "Wind chimes"],
+      "correctIndex": 1,
+      "explanation": "InSight listened for marsquakes, and it eventually lost power.",
+      "source_url": "https://science.nasa.gov/mission/insight/",
+      "verified": true
+    },
+    {
+      "id": "q12", "artifact_id": "dawn", "difficulty": "medium",
+      "question": "Where does the Dawn spacecraft remain today?",
+      "options": ["On the Moon", "On Mars", "In an unpowered orbit around Ceres", "On the surface of Eros"],
+      "correctIndex": 2,
+      "explanation": "Dawn mapped Vesta and Ceres, then ran out of fuel and remains in a perpetual, unpowered orbit around Ceres.",
+      "source_url": "https://science.nasa.gov/mission/dawn/",
+      "verified": true
+    },
+    {
+      "id": "q13", "artifact_id": "near_shoemaker", "difficulty": "medium",
+      "question": "Where is NEAR Shoemaker resting now?",
+      "options": ["On the surface of 433 Eros", "In orbit around Ceres", "On Mars", "On the Moon"],
+      "correctIndex": 0,
+      "explanation": "NEAR Shoemaker was the first spacecraft to orbit and land on an asteroid, and it was left resting on 433 Eros.",
+      "source_url": "https://science.nasa.gov/mission/near-shoemaker/",
+      "verified": true
+    },
+    {
+      "id": "q14", "artifact_id": "pioneer10", "difficulty": "easy",
+      "question": "What are Pioneer 10 and 11 doing today?",
+      "options": ["Orbiting Mars", "Parked on the Moon", "Drifting silently out of the solar system", "Falling toward the Sun"],
+      "correctIndex": 2,
+      "explanation": "These early deep-space probes explored the outer planets and are now drifting out of the solar system.",
+      "source_url": "https://science.nasa.gov/mission/pioneer-10/",
+      "verified": true
+    },
+    {
+      "id": "q15", "artifact_id": "ingenuity", "difficulty": "easy",
+      "question": "What was special about the Ingenuity helicopter?",
+      "options": ["It was the first aircraft on another planet", "It was the first rover on Mars", "It was the first Moon buggy", "It was the first telescope in space"],
+      "correctIndex": 0,
+      "explanation": "Ingenuity was the first aircraft on another planet. After rotor damage it became a stationary artifact.",
+      "source_url": "https://science.nasa.gov/mission/mars-2020-perseverance/ingenuity-mars-helicopter/",
+      "verified": true
+    },
+    {
+      "id": "q16", "artifact_id": "kepler", "difficulty": "medium",
+      "question": "What was the Kepler Space Telescope built to hunt for?",
+      "options": ["Moon rocks", "Marsquakes", "Exoplanets", "Water ice on Mars"],
+      "correctIndex": 2,
+      "explanation": "Kepler was an exoplanet-hunting telescope. It ran out of fuel and now drifts in an Earth-trailing orbit.",
+      "source_url": "https://science.nasa.gov/mission/kepler/",
+      "verified": true
+    }
+  ]
+}
